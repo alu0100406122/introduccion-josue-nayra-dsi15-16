@@ -1,6 +1,10 @@
 # ETSII ULL Grado de Informatica
 
-## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
+## Práctica: Conversor de temperatura en JavaScript de grados Celsius a Farenheit y viceversa
+
+### Integrantes:
+* Josué Toledo Castro.
+* María Nayra Rodríguez Pérez.
 
 ### Que aprendemos
 
@@ -11,6 +15,10 @@
 * Uso de Emmet (instale el plugin para su editor)
 * Uso de Mocha y Chai 
 * Uso de Gulp
+
+### Páginas personales de gh-pages:
+* Josué Toledo Castro --> http://josuetc94.github.io/
+* María Nayra Rodríguez Pérez --> http://alu0100406122.github.io/
 
 ### Despliegue en github.io
 
