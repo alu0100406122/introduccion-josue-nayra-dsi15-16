@@ -1,11 +1,31 @@
 "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
+$(document).ready(function()
+{
+  $("#original").focusin(function()
+  {
+    $(this).css("border-radius","0px");
+    $(this).css("border-color","red");
+  });
+  $("#original").focusout(function()
+  {
+    $(this).css("border-radius","10px");
+    $(this).css("border-color","black");
+  });
+  $("#original").change(function()
+  {
+    $("#resultado").fadeIn();
+    calculate();
+  });
+});
+
+
 function calculate() {
   var result;
   var temp = original.value;
   var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
-  
+
   var m = temp.match(regexp);
-  
+
   if (m) {
     var num = m[1];
     var type = m[2];
