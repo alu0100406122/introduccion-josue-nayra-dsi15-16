@@ -13,11 +13,10 @@ $(document).ready(function()
   });
   $("#original").change(function()
   {
-    $("#resultado").fadeIn();
+    $("#converted").fadeIn();
     calculate();
   });
 });
-
 
 function calculate() {
   var result;
@@ -32,15 +31,17 @@ function calculate() {
     num = parseFloat(num);
     if (type == 'c' || type == 'C') {
       result = (num * 9/5)+32;
-      result = result.toFixed(1)+" Farenheit"
+      result = result.toFixed(1)+" Farenheit";
     }
     else {
       result = (num - 32)*5/9;
-      result = result.toFixed(1)+" Celsius"
+      result = result.toFixed(1)+" Celsius";
     }
     converted.innerHTML = result;
+    //$("#converted").html(result);
   }
   else {
     converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
+    //$("#converted").html("ERROR! Try something like '-4.2C' instead'");
   }
 }
