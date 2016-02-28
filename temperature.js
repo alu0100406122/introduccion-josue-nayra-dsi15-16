@@ -19,7 +19,7 @@ function calculate() {
   var result;
   var original = document.getElementById("original");
   var temp = original.value;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fFcC]|fa|FA|Fa|far|Far|FAR)\s*$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fFcC]|fa|FA|Fa|far|Far|FAR)\s*$/;
   var m = temp.match(regexp);
 
   if (m) {
