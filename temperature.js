@@ -11,8 +11,10 @@ $(document).ready(function()
     $(this).css("border-radius","10px");
     $(this).css("border-color","black");
   });
-  $("#original").change(function()
+  
+  $("#formulario").submit(function(evento)
   {
+    evento.preventDefault();
     $("#converted").fadeIn();
     calculate();
   });
@@ -23,7 +25,6 @@ function calculate() {
   var original = document.getElementById("original");
   var temp = original.value;
   var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fFcC]|fa|FA|Fa|far|Far|FAR)\s*$/i;
-
   var m = temp.match(regexp);
 
   if (m) {
@@ -38,11 +39,9 @@ function calculate() {
       result = (num - 32)*5/9;
       result = result.toFixed(1)+" Celsius";
     }
-    converted.innerHTML = result;
-    //$("#converted").html(result);
+    $("#converted").html(result);
   }
   else {
-    converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
-    //$("#converted").html("ERROR! Try something like '-4.2C' instead'");
+    $("#converted").html("ERROR! Try something like '-4.2C' instead");
   }
 }
