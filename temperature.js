@@ -11,11 +11,7 @@ $(document).ready(function()
     $(this).css("border-radius","10px");
     $(this).css("border-color","black");
   });
-  /*$("#original").change(function()
-  {
-    $("#converted").fadeIn();
-    calculate();
-  });*/
+  
   $("#formulario").submit(function(evento)
   {
     evento.preventDefault();
@@ -44,10 +40,8 @@ function calculate() {
       result = result.toFixed(1)+" Celsius";
     }
     $("#converted").html(result);
-    //setTimeout(function(){$("#converted").fadeOut();},1400);
   }
   else {
     $("#converted").html("ERROR! Try something like '-4.2C' instead");
-    //setTimeout(function(){$("#converted").fadeOut();},1400);
   }
 }
