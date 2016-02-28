@@ -38,11 +38,11 @@ function calculate() {
       result = (num - 32)*5/9;
       result = result.toFixed(1)+" Celsius";
     }
-    converted.innerHTML = result;
-    //$("#converted").html(result);
+    $("#converted").html(result);
+    $("#converted").fadeOut();
   }
   else {
-    converted.innerHTML = "ERROR! Try something like '-4.2C' instead";
-    //$("#converted").html("ERROR! Try something like '-4.2C' instead'");
+    $("#converted").html("ERROR! Try something like '-4.2C' instead");
+    $("#converted").fadeOut();
   }
 }
