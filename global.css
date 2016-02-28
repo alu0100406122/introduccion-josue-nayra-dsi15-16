@@ -9,7 +9,13 @@ h1{
     display:block;     /*establece el tipo de caja*/
     border-radius: 30px 30px 30px 30px;
 }
-
+a:link{
+    text-decoration:none;
+}
+a:hover{
+    color: #660033;
+    text-decoration:underline;
+}
 body
 {
     background-color: #DCDCDC;  /* blue */
