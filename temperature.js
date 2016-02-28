@@ -22,7 +22,7 @@ function calculate() {
   var result;
   var original = document.getElementById("converted");
   var temp = original.value;
-  var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fFcC])\s*$/i;
 
   var m = temp.match(regexp);
 
