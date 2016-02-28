@@ -21,7 +21,15 @@
     <table align="center">
       <tr>
         <th>Enter temperature:</th>
-        <td><input id="original" autofocus onchange="calculate();" placeholder="32F" size="50"></td>
+        <td>
+          <form id="formulario" onsubmit="calculate();">
+            <input id="original"
+                   placeholder="32F"
+                   size="50"
+                   title="Escribe un número seguido de 'C' o 'F'"
+                   pattern="/^\s*([-+]?\d+(?:\.\d*)?(?:e[+-]?\d+)?)\s*([fFcC]|fa|FA|Fa|far|Far|FAR)\s*$/i" />
+          </form>           
+        </td>
       </tr>
       <tr>
         <th>Temperature converted:</th>
