@@ -20,6 +20,7 @@ $(document).ready(function()
 
 function calculate() {
   var result;
+  var original = document.getElementById("converted");
   var temp = original.value;
   var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
 
