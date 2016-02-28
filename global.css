@@ -32,3 +32,6 @@ th, td
     font-size:normal;          
     
 }
+input{
+    margin-left: 20px;
+}

@@ -4,12 +4,7 @@ $(document).ready(function()
   $("#original").focusin(function()
   {
     $(this).css("border-radius","0px");
-    $(this).css("border-color","red");
-  });
-  $("#original").focusout(function()
-  {
-    $(this).css("border-radius","10px");
-    $(this).css("border-color","black");
+    $(this).css("border-color", "purple");
   });
   
   $("#formulario").submit(function(evento)
