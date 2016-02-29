@@ -23,8 +23,12 @@
 * [Josué Toledo Castro](http://josuetc94.github.io/)
 * [María Nayra Rodríguez Pérez](http://alu0100406122.github.io/)
 
-### Despliegue en github.io
+### Repositorios en github.io
 
 * [Repositorio de la práctica en la organización](https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16/tree/gh-pages)
 * [Fork del repositorio de la organización](https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16)
 * [Campus Virtual de la asignatura](https://campusvirtual.ull.es/my/)
+
+### Despligue de la práctica
+
+* [Conversor de Temperatura](http://ull-esit-gradoii-dsi.github.io/introduccion-josue-nayra-dsi15-16/)
