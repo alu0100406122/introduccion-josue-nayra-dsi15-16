@@ -2,6 +2,9 @@
 
 ## Práctica: Conversor de temperatura en JavaScript de grados Celsius a Farenheit y viceversa
 
+### Enlace al campus de la asignatura
+* [Desarrollo de Sistemas Informáticos](https://campusvirtual.ull.es/my/)
+
 ### Integrantes:
 * Josué Toledo Castro.
 * María Nayra Rodríguez Pérez.
@@ -24,4 +27,3 @@
 
 * [Repositorio de la práctica en la organización](https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16/tree/gh-pages)
 * [Fork del repositorio de la organización](https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16)
-* [Campus Virtual de la asignatura](https://campusvirtual.ull.es/my/)
