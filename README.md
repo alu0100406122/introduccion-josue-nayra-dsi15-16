@@ -7,7 +7,7 @@
 * María Nayra Rodríguez Pérez.
 
 ### Que aprendemos
-
+     
 * HTML básico
 * JavaScript básico
 * Expresiones Regulares
@@ -17,15 +17,11 @@
 * Uso de Gulp
 
 ### Páginas personales de gh-pages:
-* Josué Toledo Castro --> http://josuetc94.github.io/
-* María Nayra Rodríguez Pérez --> http://alu0100406122.github.io/
+* [Josué Toledo Castro](http://josuetc94.github.io/)
+* [María Nayra Rodríguez Pérez](http://alu0100406122.github.io/)
 
 ### Despliegue en github.io
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/)
-
-### Ejecutar las pruebas
-
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html)
+* [Repositorio de la práctica en la organización](https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16/tree/gh-pages)
+* [Fork del repositorio de la organización](https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16)
+* [Campus Virtual de la asignatura](https://campusvirtual.ull.es/my/)
