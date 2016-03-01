@@ -27,7 +27,10 @@
 
 * [Repositorio de la práctica en la organización](https://github.com/ULL-ESIT-GRADOII-DSI/introduccion-josue-nayra-dsi15-16/tree/gh-pages)
 * [Fork del repositorio de la organización](https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16)
+<<<<<<< HEAD
 * [Campus Virtual de la asignatura](https://campusvirtual.ull.es/my/)
+=======
+>>>>>>> 59d4fa2d79ded6f29d6c2bb393123201038fbca1
 
 ### Despligue de la práctica
 

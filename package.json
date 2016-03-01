@@ -1,25 +1,25 @@
 {
-  "dependencies": {
-  },
-  "devDependencies": {
-    "chai": "*",
-    "mocha": "*"
-  },
-  "name": "temperature",
-  "description": "ETSII ULL Grado de Informatica",
-  "version": "1.0.0",
+  "name": "introduccion-josue-nayra-dsi15-16",
+  "version": "2.0.0",
+  "description": "ULL ESIT Grado de Ingeniería Informática. 3º Curso. Asignatura: Desarrollo de Sistemas Informáticos",
   "main": "temperature.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "open tests/index.html # mac OS"
+    "test": "open tests/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@bitbucket.org/casiano/pl-grado-temperature-converter.git"
+    "url": "git+https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16.git"
   },
-  "author": "Casiano",
+  "keywords": [
+    "regexp"
+  ],
+  "author": "Nayra Rodríguez Pérez y Josué Toledo Castro",
   "license": "ISC",
-  "homepage": "https://github.com/crguezl/ull-etsii-grado-pl-1213-temperature-converter/tree/gh-pages"
+  "bugs": {
+    "url": "https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16/issues"
+  },
+  "homepage": "https://github.com/JosueTC94/introduccion-josue-nayra-dsi15-16#readme"
 }

@@ -11,6 +11,7 @@ h1{
     display:block;     /*establece el tipo de caja*/
     border-radius: 30px 30px 30px 30px;
 }
+<<<<<<< HEAD
 #nayra{
     float:right;
 }
@@ -23,6 +24,10 @@ h1{
 a:link{
     text-decoration:none;
     color: #660033;
+=======
+a:link{
+    text-decoration:none;
+>>>>>>> 59d4fa2d79ded6f29d6c2bb393123201038fbca1
 }
 a:hover{
     color: #660033;
@@ -60,6 +65,7 @@ fieldset{
     font-size:large;          
     
 }
+<<<<<<< HEAD
 input
 {
     margin-left: 20px;
@@ -77,3 +83,8 @@ input
     margin-top:50px;
 }
 
+=======
+input{
+    margin-left: 20px;
+}
+>>>>>>> 59d4fa2d79ded6f29d6c2bb393123201038fbca1
